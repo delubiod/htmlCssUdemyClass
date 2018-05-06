@@ -1,0 +1,41 @@
+div {
+  width: 100px;
+  height: 100px;
+  border: 10px solid red;
+  border-radius: 30%;
+  display: inline-block;
+  background-image:url("https://i.ytimg.com/vi/opKg3fyqWt4/hqdefault.jpg");
+  background-size: cover;
+  /* background-repeat: no-repeat;  - é usado para não quadricular a imagem tipo tiles de imagens*/
+
+}
+
+
+
+img{
+    /* border: 10px groove orangered; */
+    /* border-radius: 100% */
+    /*box-sizing border-box fica comprometido com o width:200px é a soma de 140 da foto + 40px do padding + 20px do border + 0px da margin */
+    width: 200px;
+    height: 170px;
+    box-sizing: border-box;
+    border: 10px groove orangered;
+    padding: 20px;
+    /* margin: 15px; */
+    /* width: auto; height: auto; */
+
+
+}
+
+.onedog {
+    border: 10px groove orangered;
+}
+.twodog {
+    border: 10px dashed orangered;
+}
+.threedog {
+    border: 10px solid red;
+}
+.fourdog {
+    border: 10px solid green;
+}

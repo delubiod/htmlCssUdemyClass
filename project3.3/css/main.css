@@ -1,0 +1,18 @@
+div {
+  width: 400px;
+  height: 200px;
+  /* se tirar o comentário o fundo(background) do retângulo fica red. */
+  /* background-color: red;*/
+  border-radius: 50px;
+  border: 20px groove tomato;
+}
+.teste {
+  width: 400px;
+  height: 200px;
+  border: 10px solid red;
+  margin: 10px auto;
+  box-sizing: border-box;
+  background-image: url(/Users/delubiod/Desktop/project3/img/enhanced-buzz-1492-1379411828-15.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
