@@ -1,0 +1,5 @@
+
+/* Ficará red o décimo numero de baixo pra cima. nth-last-child up 10 numbers */
+li:nth-last-child(10) {
+    color: red;
+}
